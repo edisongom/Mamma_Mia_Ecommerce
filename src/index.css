@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Puritan&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Puritan", sans-serif;
+}
+
+.container {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.pizzas-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.active {
+    border-bottom: 3.2px solid #fff;
+}
+
+header {
+    background: url("./components/background-pizza.webp")  center center;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    color: white;
+    padding: 16px;
+    text-shadow: 0 0 4px #000;
+    
+}
+
+.header-container h1 {
+    font-size: 48px;
+}
+
+.header-container p {
+    font-size: 18px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+}
+
+.card ul {
+    list-style-type: none;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.card ul li {
+    text-transform: capitalize;
+}
+
+.card-image img {
+    max-width: 100%;
+}
+
+.card-content {
+    padding: 8px;
+    flex: 1 1 auto;
+}
+
+#card-pizza-name{
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.price {
+    text-align: center;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 24px;
+}
+
+.card-footer {
+    text-align: center;
+}
+
+#view-more {
+    cursor: pointer;
+    color: #fff;
+    padding: 8px;
+    background-color: rgb(96, 218, 245);
+}
+
+#add-to-cart {
+    cursor: pointer;
+    color: #fff;
+    margin: 8px;
+    padding: 8px;
+    background-color: rgb(220, 53, 69);
+}
+
+.details-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.pizza-view-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 16px;
+}
+
+.pizza-view-details ul {
+    list-style: none;
+}
+
+#add-button{
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    border: none;
+    padding: 8px 16px;
+    background-color:rgb(220,53,69);
+}
+
+.pizza-details img {
+    width: 30%;
+}
+
+.pizza-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pizza-details span {
+    font-size: 24px;
+    margin-left: 16px;
+    text-transform: capitalize;
+}
+
+.cart-container {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+.pizza-price-quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pizza-price-quantity span {
+    font-size: 24px;
+    
+    
+}
+
+#add-pizza {
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 32px;
+    height: 32px;
+    background-color: rgb(220,53,69);
+}
+
+#remove-pizza {
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+    margin-left: 16px;
+    background-color:rgb(15,110,253);
+}
+
+#cart-total {
+    margin-top: 32px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#buy-btn {
+    margin-top: 32px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 20%;
+    height: 32px;
+    background-color: rgb(25,135,84);
+}
+
+nav {
+    background-color: #17A2B8;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 16px;
+    color: white;
+    
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    alig-items: center;
+    
+}
+
+.cart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#brand-text {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+#navbar-total{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
